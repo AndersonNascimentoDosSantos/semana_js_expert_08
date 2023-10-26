@@ -6,18 +6,26 @@ const clock = new Clock();
 const worker = new Worker("./src/worker/worker.js", {
   type: "module",
 });
+worker.onerror = (error) => {
+  console.log("error no worker", error);
+};
 worker.onmessage = ({ data }) => {
   if (data.status !== "done") return;
   clock.stop();
   view.updateElapsedTime(`Process took ${took.replace("ago", "")}`);
 };
-worker.postMessage("enviado do pai");
+
 let took = "";
 view.configureOnFileChange((file) => {
-  worker.postMessage({
-    status: "start",
-    file,
-  });
+  const canvas = view.getCanvas();
+  worker.postMessage(
+    {
+      status: "start",
+      file,
+      canvas,
+    },
+    [canvas]
+  );
   clock.start((time) => {
     took = time;
     view.updateElapsedTime(`Process started ${time}`);
