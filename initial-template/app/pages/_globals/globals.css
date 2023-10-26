@@ -10,6 +10,7 @@ html,
 body {
   margin: 0px;
   height: 100%;
+  width: 100vw;
 }
 
 /* a blue color as a generic focus style */
@@ -21,7 +22,6 @@ button:focus-visible {
 a {
   text-decoration: none;
 }
-
 
 @font-face {
   font-family: "Arial-Regular";

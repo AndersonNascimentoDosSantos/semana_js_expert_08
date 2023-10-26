@@ -1,0 +1,320 @@
+.desktop .overlap-group {
+  width: 100%;
+  height: 95px;
+  background-color: #0e0e0e;
+  display: flex;
+}
+.overlap-group .div-headerwrapper {
+  flex-direction: column;
+  /* padding: 0px 58.5px; */
+  background-color: #0e0e0e;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlap-group .div-headercontainer {
+  display: inline-flex;
+  width: 100%;
+  height: 60px;
+  justify-content: center;
+  gap: 10px;
+  /* position: relative; */
+
+  align-items: center;
+  background-color: red;
+}
+
+.overlap-group .div-logo-wrapper {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px 79.16px 0px 0px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.overlap-group .div-logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 23.34px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.overlap-group .button-desktop {
+  position: relative;
+  flex: 0 0 auto;
+  height: 60px;
+}
+
+.overlap-group .group {
+  position: relative;
+  width: 120.66px;
+  height: 34.45px;
+  
+}
+
+.overlap-group .frame {
+  display: flex;
+  width: 121px;
+  height: 34px;
+  align-items: flex-start;
+  gap: 5.49px;
+  position: relative;
+}
+
+.overlap-group .text-wrapper {
+  position: relative;
+  width: fit-content;
+  margin-top: -0.14px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 27.7px;
+  letter-spacing: -0.55px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.overlap-group .div-wrapper {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.37px;
+  padding: 0.13px 6.18px;
+  position: relative;
+  flex: 0 0 auto;
+  margin-right: -59.18px;
+  background-color: #ff9000;
+  border-radius: 2.75px;
+}
+
+.overlap-group .text-wrapper-2 {
+  position: relative;
+  width: fit-content;
+  margin-top: -0.14px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 27.7px;
+  letter-spacing: -0.55px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.overlap-group .form-fieldset-wrapper {
+  width: 100%;
+  height: 41px;
+}
+
+.overlap-group .form-fieldset-wrapper .form-fieldset {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.overlap-group .form-fieldset-wrapper .div-2 {
+  display: inline-flex;
+  height: 41px;
+  align-items: flex-start;
+  padding: 2px;
+  position: relative;
+  background-color: #252525;
+  border-radius: 20px;
+}
+
+.overlap-group .form-fieldset-wrapper .div-2 .button-pesquisa {
+  position: relative;
+  width: 49px;
+  height: 36px;
+  z-index: 1;
+  border-radius: 0px 3px 3px 0px;
+}
+
+.overlap-group
+  .form-fieldset-wrapper
+  .div-2
+  .button-pesquisa
+  .iconamoon-search {
+  width: 20px;
+  height: 20px;
+}
+
+.overlap-group .form-fieldset-wrapper .pseudo {
+  display: inline-flex;
+  align-items: flex-start;
+  padding: 16px 0px 1px;
+}
+
+.overlap-group .icon {
+  position: relative;
+  width: 24.03px;
+  height: 1px;
+}
+
+.overlap-group .form-fieldset-wrapper .div-2 .label {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  align-self: stretch;
+  flex: 0 0 auto;
+  margin-left: -5px;
+  z-index: 0;
+  width: 100%;
+}
+
+.overlap-group .form-fieldset-wrapper .div-2 .label .input-search {
+  display: inline-flex;
+  align-items: flex-start;
+
+  flex: 0 0 auto;
+  background-color: #252525;
+  border-radius: 0px 20px 20px 0px;
+  width: 100%;
+}
+
+.overlap-group
+  .form-fieldset-wrapper
+  .div-2
+  .label
+  .input-search
+  .div-placeholder {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* padding: 0px 432.3px 0px 0px; */
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.overlap-group
+  .form-fieldset-wrapper
+  .div-2
+  .label
+  .input-search
+  .text-wrapper-3 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Arial-Regular", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.overlap-group .div-uploadbtncontent {
+  position: absolute;
+  width: 84px;
+  height: 39px;
+  top: 28px;
+  right: 5%;
+}
+
+.overlap-group .link {
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  top: 25px;
+  right: 2%;
+}
+
+.overlap-group .div-3 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px 5px 0px 0px;
+}
+
+.div-3 .list-wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 1318px;
+  align-items: flex-start;
+  position: relative;
+  flex: 0 0 auto;
+  overflow-x: scroll;
+}
+
+.div-3 .list {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 8.3px;
+  flex: 0 0 auto;
+  padding: 1rem;
+}
+/* Estilize a barra de rolagem e o indicador de rolagem */
+.list-wrapper::-webkit-scrollbar {
+  width: 10px; /* Largura da barra de rolagem */
+  background: transparent; /* Cor de fundo da barra de rolagem (transparente) */
+}
+
+.list-wrapper::-webkit-scrollbar-thumb {
+  background: transparent; /* Cor do indicador de rolagem (transparente com 50% de opacidade) */
+  border-radius: 5px; /* Arredondamento do indicador de rolagem */
+}
+
+/* Estilize a barra de rolagem na horizontal */
+.list-wrapper::-webkit-scrollbar:horizontal {
+  height: 10px; /* Altura da barra de rolagem na horizontal */
+}
+
+.div-3 .item {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.div-3 .link-2 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px 16.68px 12px 16.88px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: #151515;
+  border-radius: 20px;
+  border: 2px solid;
+  border-color: #202020;
+  width: fit-content;
+}
+
+.div-3 .text-wrapper-4 {
+  position: relative;
+  width: fit-content;
+  margin-top: -2px;
+  font-family: "Arial-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.desktop .frame-2 {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.frame-2 .p {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Arial-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
