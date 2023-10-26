@@ -15,6 +15,7 @@ worker.postMessage("enviado do pai");
 let took = "";
 view.configureOnFileChange((file) => {
   worker.postMessage({
+    status: "start",
     file,
   });
   clock.start((time) => {
